@@ -1,94 +1,59 @@
 # HR Employee Attrition Analysis
 
-An end-to-end **HR Employee Attrition Analysis** project using **Python, Pandas, Matplotlib, and SQL/MySQL** to explore employee turnover patterns and identify business insights from employee data.
+An end-to-end **HR Employee Attrition Analysis** project using **Python, Pandas, Matplotlib, and SQL/MySQL** to explore employee turnover patterns and extract business insights from employee data.
 
-The project covers the complete analytical workflow:
+The project demonstrates a complete data analytics workflow:
 
-**Data Cleaning → Exploratory Data Analysis → SQL Analysis → Visualization → Business Insights**
+**Data Cleaning → Data Quality Check → Exploratory Data Analysis → SQL Analysis → Data Visualization → Business Insights**
 
 ---
 
 ## Project Overview
 
-Employee attrition can affect workforce stability, recruitment costs, and organizational performance.
+Employee attrition is an important HR business problem because employee turnover can affect workforce stability, recruitment needs, and organizational continuity.
 
-This project analyzes employee data to understand patterns associated with employee attrition across different employee characteristics, including:
+This project analyzes employee data to identify patterns associated with employee attrition across several employee characteristics, including:
 
 - Department
-- Job role
+- Job Role
 - Overtime
-- Age group
-- Monthly income
-- Job satisfaction
-- Job level
-- Years at company
-- Business travel
+- Age Group
+- Monthly Income
+- Job Satisfaction
+- Job Level
+- Years at Company
+- Business Travel
 
-The analysis combines **Python-based EDA** with **SQL-based business analysis** to demonstrate practical data analyst skills.
+The analysis combines **Python-based exploratory analysis** and **SQL-based business analysis**, supported by visualizations to communicate the results.
 
 ---
 
-## Dataset
+# Dataset
 
 The dataset contains:
 
 - **1,470 employee records**
 - **35 original columns**
 - **32 columns after data cleaning**
-- **237 employees with attrition = Yes**
-- **1,233 employees with attrition = No**
+- **237 employees with Attrition = Yes**
+- **1,233 employees with Attrition = No**
 - **16.12% overall attrition rate**
 
-### Data Cleaning
+## Data Quality
 
-Three constant columns were identified and removed:
-
-- `EmployeeCount`
-- `Over18`
-- `StandardHours`
-
-The cleaned dataset contains **32 columns**.
-
-Data quality checks were also performed for:
+Initial data quality checks were performed on:
 
 - Missing values
 - Duplicate rows
+- Data types
 - Unique values
 - Constant columns
-- Data types
 
-The final dataset contains:
+### Cleaning Results
 
-- **0 missing values**
-- **0 duplicate rows**
-
----
-
-## Tools & Technologies
-
-- **Python**
-- **Pandas**
-- **Matplotlib**
-- **SQL / MySQL**
-- **phpMyAdmin**
-- **Google Colab**
-- **GitHub**
-
----
-
-## Analysis Workflow
+Three constant columns were identified and removed:
 
 ```text
-Raw Dataset
-     ↓
-Data Cleaning
-     ↓
-Data Quality Checking
-     ↓
-Exploratory Data Analysis
-     ↓
-SQL Business Analysis
-     ↓
-Data Visualization
-     ↓
-Business Insights
+EmployeeCount
+Over18
+StandardHours
